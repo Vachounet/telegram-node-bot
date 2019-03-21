@@ -72,7 +72,7 @@ class ModelsGenerator {
 
     _prepareType(type) {
         type = type.replace('Array of Array of ', '').replace('Array of ', '')
-
+        type = type.replace('InputFile or String', 'String')
         if (JS_TYPES[type]) {
             return JS_TYPES[type]
         }
@@ -82,6 +82,7 @@ class ModelsGenerator {
 
     _isStandart(type) {
         type = type.replace('Array of Array of ', '').replace('Array of ', '')
+        type = type.replace('InputFile or String', 'String')
 
         if (JS_TYPES[type]) {
             return true
