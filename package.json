@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Naltox/telegram-node-bot.git"
+    "url": "https://github.com/Vachounet/telegram-node-bot.git"
   },
   "keywords": [
     "telegram",
@@ -19,9 +19,9 @@
   "author": "Narek Abovyan <xeroxaltox@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Naltox/telegram-bot/issues"
+    "url": "https://github.com/Vachounet/telegram-node-bot/issues"
   },
-  "homepage": "https://github.com/Naltox/telegram-node-bot",
+  "homepage": "https://github.com/Vachounet/telegram-node-bot",
   "dependencies": {
     "tiny_request": "latest"
   },
