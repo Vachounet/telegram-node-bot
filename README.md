@@ -278,17 +278,6 @@ tg.onMaster(() => {
 })
 ```
 
-## Web admin
-By default library will start web admin at localhost:7777, to change that use `webAdmin` properpty:
-```js
-const tg = new Telegram.Telegram('YOUR_TOKEN', {
-    webAdmin: {
-        port: 1234,
-        host: 'localhost'
-    }
-})
-```
-
 ## API
 You can call api methods two ways:
 
